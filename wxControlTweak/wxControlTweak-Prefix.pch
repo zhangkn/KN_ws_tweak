@@ -4,5 +4,23 @@
 
 #ifdef __OBJC__
     #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#import "FLSocketManager.h"
+#import "KNSocketManagerTool.h"
+#import "Const.h"
     #import "/opt/theos/Prefix.pch"  //path/to/theos/Prefix.pch
+
+
+#ifdef DEBUG
+# define NSLog(...) HBLogDebug(__VA_ARGS__)
+#else
+# define NSLog(...) {}
+#endif
+
+#define dispatch_main_async_safe(block)\
+if ([NSThread isMainThread]) {\
+block();\
+} else {\
+dispatch_async(dispatch_get_main_queue(), block);\
+}
 #endif

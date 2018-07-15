@@ -1,0 +1,20 @@
+PODS:
+  - JSONModel (1.7.0)
+  - SocketRocket (0.5.1)
+
+DEPENDENCIES:
+  - JSONModel
+  - SocketRocket
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - JSONModel
+    - SocketRocket
+
+SPEC CHECKSUMS:
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+
+PODFILE CHECKSUM: 7d6cba2829d8df683bb07580f3e03f9762ca14f6
+
+COCOAPODS: 1.5.0

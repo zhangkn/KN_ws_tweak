@@ -7,13 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96A04CDF575B0D924098D604 /* libPods-wxControlTweak.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BC598B6A69EDCB1E01B0E82 /* libPods-wxControlTweak.a */; };
+		E11149DA20FB2A4300A78825 /* KNconvertHexStrToString.m in Sources */ = {isa = PBXBuildFile; fileRef = E11149D820FB2A4300A78825 /* KNconvertHexStrToString.m */; };
+		E11149DB20FB2A4300A78825 /* KNconvertHexStrToString.h in Headers */ = {isa = PBXBuildFile; fileRef = E11149D920FB2A4300A78825 /* KNconvertHexStrToString.h */; };
 		E1B71AA020F89E1000C30A86 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1B71A9F20F89E1000C30A86 /* UIKit.framework */; };
 		E1B71AA220F89E1000C30A86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1B71AA120F89E1000C30A86 /* Foundation.framework */; };
 		E1B71AA420F89E1000C30A86 /* CydiaSubstrate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1B71AA320F89E1000C30A86 /* CydiaSubstrate.framework */; };
-		E1B71AB320F89E1000C30A86 /* wxControlTweak.mm in Sources */ = {isa = PBXBuildFile; fileRef = E1B71AB220F89E1000C30A86 /* wxControlTweak.mm */; };
+		E1B71AB320F89E1000C30A86 /* wxControlTweak.mm in Sources */ = {isa = PBXBuildFile; fileRef = E1B71AB220F89E1000C30A86 /* wxControlTweak.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E1B71AC520F999E800C30A86 /* KNConstTool.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B71ABD20F999E800C30A86 /* KNConstTool.h */; };
+		E1B71AC620F999E800C30A86 /* KNSocketRespondModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B71ABE20F999E800C30A86 /* KNSocketRespondModel.h */; };
+		E1B71AC720F999E800C30A86 /* GACSocketModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B71ABF20F999E800C30A86 /* GACSocketModel.h */; };
+		E1B71AC820F999E800C30A86 /* GACConnectConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B71AC020F999E800C30A86 /* GACConnectConfig.h */; };
+		E1B71AC920F999E800C30A86 /* KNConstTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B71AC120F999E800C30A86 /* KNConstTool.m */; };
+		E1B71ACA20F999E800C30A86 /* KNSocketRespondModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B71AC220F999E800C30A86 /* KNSocketRespondModel.m */; };
+		E1B71ACB20F999E800C30A86 /* GACSocketModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B71AC320F999E800C30A86 /* GACSocketModel.m */; };
+		E1B71ACC20F999E800C30A86 /* GACConnectConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B71AC420F999E800C30A86 /* GACConnectConfig.m */; };
+		E1B71AD120F999FF00C30A86 /* FLSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B71ACD20F999FF00C30A86 /* FLSocketManager.m */; };
+		E1B71AD220F999FF00C30A86 /* KNSocketManagerTool.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B71ACE20F999FF00C30A86 /* KNSocketManagerTool.h */; };
+		E1B71AD320F999FF00C30A86 /* KNSocketManagerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B71ACF20F999FF00C30A86 /* KNSocketManagerTool.m */; };
+		E1B71AD420F999FF00C30A86 /* FLSocketManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B71AD020F999FF00C30A86 /* FLSocketManager.h */; };
+		E1B71AD820F9A3FB00C30A86 /* HSSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B71AD720F9A3FB00C30A86 /* HSSingleton.h */; };
+		E1B71AE020F9A4B700C30A86 /* KNConst.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B71ADA20F9A4B700C30A86 /* KNConst.h */; };
+		E1B71AE120F9A4B700C30A86 /* HCPEnvrionmentalVariables.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B71ADB20F9A4B700C30A86 /* HCPEnvrionmentalVariables.m */; };
+		E1B71AE220F9A4B700C30A86 /* Const.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B71ADC20F9A4B700C30A86 /* Const.m */; };
+		E1B71AE320F9A4B700C30A86 /* KNConst.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B71ADD20F9A4B700C30A86 /* KNConst.m */; };
+		E1B71AE420F9A4B700C30A86 /* Const.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B71ADE20F9A4B700C30A86 /* Const.h */; };
+		E1B71AE520F9A4B700C30A86 /* HCPEnvrionmentalVariables.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B71ADF20F9A4B700C30A86 /* HCPEnvrionmentalVariables.h */; };
+		E1B71AEA20FB248700C30A86 /* KNNotificationTool.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B71AE820FB248700C30A86 /* KNNotificationTool.h */; };
+		E1B71AEB20FB248700C30A86 /* KNNotificationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B71AE920FB248700C30A86 /* KNNotificationTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4BC598B6A69EDCB1E01B0E82 /* libPods-wxControlTweak.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wxControlTweak.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FE2F33A7294B9F3D37A47FC /* Pods-wxControlTweak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wxControlTweak.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wxControlTweak/Pods-wxControlTweak.debug.xcconfig"; sourceTree = "<group>"; };
+		C8D3198B00E5415BF3ABDF73 /* Pods-wxControlTweak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wxControlTweak.release.xcconfig"; path = "Pods/Target Support Files/Pods-wxControlTweak/Pods-wxControlTweak.release.xcconfig"; sourceTree = "<group>"; };
+		E11149D820FB2A4300A78825 /* KNconvertHexStrToString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNconvertHexStrToString.m; sourceTree = "<group>"; };
+		E11149D920FB2A4300A78825 /* KNconvertHexStrToString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNconvertHexStrToString.h; sourceTree = "<group>"; };
 		E1B71A9C20F89E1000C30A86 /* wxControlTweak.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = wxControlTweak.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1B71A9F20F89E1000C30A86 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E1B71AA120F89E1000C30A86 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -23,9 +52,30 @@
 		E1B71AAD20F89E1000C30A86 /* wxControlTweakIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wxControlTweakIcon.png; path = Package/Library/PreferenceLoader/Preferences/wxControlTweakIcon.png; sourceTree = "<group>"; };
 		E1B71AAE20F89E1000C30A86 /* wxControlTweakIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "wxControlTweakIcon@2x.png"; path = "Package/Library/PreferenceLoader/Preferences/wxControlTweakIcon@2x.png"; sourceTree = "<group>"; };
 		E1B71AB020F89E1000C30A86 /* wxControlTweak-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wxControlTweak-Prefix.pch"; sourceTree = "<group>"; };
-		E1B71AB120F89E1000C30A86 /* wxControlTweak.xm */ = {isa = PBXFileReference; lastKnownFileType = text; path = wxControlTweak.xm; sourceTree = "<group>"; };
+		E1B71AB120F89E1000C30A86 /* wxControlTweak.xm */ = {isa = PBXFileReference; lastKnownFileType = text; path = wxControlTweak.xm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		E1B71AB220F89E1000C30A86 /* wxControlTweak.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = wxControlTweak.mm; sourceTree = "<group>"; };
 		E1B71AB620F89E1000C30A86 /* wxControlTweak.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = wxControlTweak.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/wxControlTweak.plist; sourceTree = "<group>"; };
+		E1B71ABD20F999E800C30A86 /* KNConstTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNConstTool.h; sourceTree = "<group>"; };
+		E1B71ABE20F999E800C30A86 /* KNSocketRespondModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNSocketRespondModel.h; sourceTree = "<group>"; };
+		E1B71ABF20F999E800C30A86 /* GACSocketModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GACSocketModel.h; sourceTree = "<group>"; };
+		E1B71AC020F999E800C30A86 /* GACConnectConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GACConnectConfig.h; sourceTree = "<group>"; };
+		E1B71AC120F999E800C30A86 /* KNConstTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNConstTool.m; sourceTree = "<group>"; };
+		E1B71AC220F999E800C30A86 /* KNSocketRespondModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNSocketRespondModel.m; sourceTree = "<group>"; };
+		E1B71AC320F999E800C30A86 /* GACSocketModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GACSocketModel.m; sourceTree = "<group>"; };
+		E1B71AC420F999E800C30A86 /* GACConnectConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GACConnectConfig.m; sourceTree = "<group>"; };
+		E1B71ACD20F999FF00C30A86 /* FLSocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLSocketManager.m; sourceTree = "<group>"; };
+		E1B71ACE20F999FF00C30A86 /* KNSocketManagerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNSocketManagerTool.h; sourceTree = "<group>"; };
+		E1B71ACF20F999FF00C30A86 /* KNSocketManagerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNSocketManagerTool.m; sourceTree = "<group>"; };
+		E1B71AD020F999FF00C30A86 /* FLSocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLSocketManager.h; sourceTree = "<group>"; };
+		E1B71AD720F9A3FB00C30A86 /* HSSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSSingleton.h; sourceTree = "<group>"; };
+		E1B71ADA20F9A4B700C30A86 /* KNConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNConst.h; sourceTree = "<group>"; };
+		E1B71ADB20F9A4B700C30A86 /* HCPEnvrionmentalVariables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCPEnvrionmentalVariables.m; sourceTree = "<group>"; };
+		E1B71ADC20F9A4B700C30A86 /* Const.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Const.m; sourceTree = "<group>"; };
+		E1B71ADD20F9A4B700C30A86 /* KNConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNConst.m; sourceTree = "<group>"; };
+		E1B71ADE20F9A4B700C30A86 /* Const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
+		E1B71ADF20F9A4B700C30A86 /* HCPEnvrionmentalVariables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCPEnvrionmentalVariables.h; sourceTree = "<group>"; };
+		E1B71AE820FB248700C30A86 /* KNNotificationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNNotificationTool.h; sourceTree = "<group>"; };
+		E1B71AE920FB248700C30A86 /* KNNotificationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNNotificationTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,18 +86,31 @@
 				E1B71AA020F89E1000C30A86 /* UIKit.framework in Frameworks */,
 				E1B71AA220F89E1000C30A86 /* Foundation.framework in Frameworks */,
 				E1B71AA420F89E1000C30A86 /* CydiaSubstrate.framework in Frameworks */,
+				96A04CDF575B0D924098D604 /* libPods-wxControlTweak.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E11149D720FB2A4300A78825 /* KNconvertHexStrToString */ = {
+			isa = PBXGroup;
+			children = (
+				E11149D820FB2A4300A78825 /* KNconvertHexStrToString.m */,
+				E11149D920FB2A4300A78825 /* KNconvertHexStrToString.h */,
+			);
+			path = KNconvertHexStrToString;
+			sourceTree = "<group>";
+		};
 		E1B71A9120F89E1000C30A86 = {
 			isa = PBXGroup;
 			children = (
+				E1B71AD620F9A3E000C30A86 /* tool */,
+				E1B71AD520F99A1900C30A86 /* SocketManager */,
 				E1B71AA520F89E1000C30A86 /* wxControlTweak */,
 				E1B71A9E20F89E1000C30A86 /* Frameworks */,
 				E1B71A9D20F89E1000C30A86 /* Products */,
+				E5ABAA33532CA4A32F9F6DDE /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +128,7 @@
 				E1B71A9F20F89E1000C30A86 /* UIKit.framework */,
 				E1B71AA120F89E1000C30A86 /* Foundation.framework */,
 				E1B71AA320F89E1000C30A86 /* CydiaSubstrate.framework */,
+				4BC598B6A69EDCB1E01B0E82 /* libPods-wxControlTweak.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -148,6 +212,91 @@
 			name = DynamicLibraries;
 			sourceTree = "<group>";
 		};
+		E1B71ABC20F999E800C30A86 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E1B71AE620FAEEF900C30A86 /* enum */,
+				E1B71ABE20F999E800C30A86 /* KNSocketRespondModel.h */,
+				E1B71ABF20F999E800C30A86 /* GACSocketModel.h */,
+				E1B71AC020F999E800C30A86 /* GACConnectConfig.h */,
+				E1B71AC220F999E800C30A86 /* KNSocketRespondModel.m */,
+				E1B71AC320F999E800C30A86 /* GACSocketModel.m */,
+				E1B71AC420F999E800C30A86 /* GACConnectConfig.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E1B71AD520F99A1900C30A86 /* SocketManager */ = {
+			isa = PBXGroup;
+			children = (
+				E1B71AEC20FB248C00C30A86 /* tool */,
+				E1B71ABC20F999E800C30A86 /* Model */,
+				E1B71AE720FAF23300C30A86 /* Manager */,
+			);
+			path = SocketManager;
+			sourceTree = "<group>";
+		};
+		E1B71AD620F9A3E000C30A86 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				E11149D720FB2A4300A78825 /* KNconvertHexStrToString */,
+				E1B71AD920F9A4B700C30A86 /* constant */,
+				E1B71AD720F9A3FB00C30A86 /* HSSingleton.h */,
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+		E1B71AD920F9A4B700C30A86 /* constant */ = {
+			isa = PBXGroup;
+			children = (
+				E1B71ADA20F9A4B700C30A86 /* KNConst.h */,
+				E1B71ADB20F9A4B700C30A86 /* HCPEnvrionmentalVariables.m */,
+				E1B71ADC20F9A4B700C30A86 /* Const.m */,
+				E1B71ADD20F9A4B700C30A86 /* KNConst.m */,
+				E1B71ADE20F9A4B700C30A86 /* Const.h */,
+				E1B71ADF20F9A4B700C30A86 /* HCPEnvrionmentalVariables.h */,
+			);
+			path = constant;
+			sourceTree = "<group>";
+		};
+		E1B71AE620FAEEF900C30A86 /* enum */ = {
+			isa = PBXGroup;
+			children = (
+				E1B71ABD20F999E800C30A86 /* KNConstTool.h */,
+				E1B71AC120F999E800C30A86 /* KNConstTool.m */,
+			);
+			path = enum;
+			sourceTree = "<group>";
+		};
+		E1B71AE720FAF23300C30A86 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				E1B71AD020F999FF00C30A86 /* FLSocketManager.h */,
+				E1B71ACD20F999FF00C30A86 /* FLSocketManager.m */,
+				E1B71ACE20F999FF00C30A86 /* KNSocketManagerTool.h */,
+				E1B71ACF20F999FF00C30A86 /* KNSocketManagerTool.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		E1B71AEC20FB248C00C30A86 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				E1B71AE820FB248700C30A86 /* KNNotificationTool.h */,
+				E1B71AE920FB248700C30A86 /* KNNotificationTool.m */,
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+		E5ABAA33532CA4A32F9F6DDE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8D3198B00E5415BF3ABDF73 /* Pods-wxControlTweak.release.xcconfig */,
+				4FE2F33A7294B9F3D37A47FC /* Pods-wxControlTweak.debug.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -155,6 +304,18 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1B71AC620F999E800C30A86 /* KNSocketRespondModel.h in Headers */,
+				E1B71AE520F9A4B700C30A86 /* HCPEnvrionmentalVariables.h in Headers */,
+				E1B71AD820F9A3FB00C30A86 /* HSSingleton.h in Headers */,
+				E1B71AC520F999E800C30A86 /* KNConstTool.h in Headers */,
+				E1B71AC720F999E800C30A86 /* GACSocketModel.h in Headers */,
+				E11149DB20FB2A4300A78825 /* KNconvertHexStrToString.h in Headers */,
+				E1B71AC820F999E800C30A86 /* GACConnectConfig.h in Headers */,
+				E1B71AD220F999FF00C30A86 /* KNSocketManagerTool.h in Headers */,
+				E1B71AEA20FB248700C30A86 /* KNNotificationTool.h in Headers */,
+				E1B71AE420F9A4B700C30A86 /* Const.h in Headers */,
+				E1B71AD420F999FF00C30A86 /* FLSocketManager.h in Headers */,
+				E1B71AE020F9A4B700C30A86 /* KNConst.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +326,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1B71AB920F89E1000C30A86 /* Build configuration list for PBXNativeTarget "wxControlTweak" */;
 			buildPhases = (
+				DB2675070B654D04C3F7874A /* [CP] Check Pods Manifest.lock */,
 				E1B71A9620F89E1000C30A86 /* ShellScript */,
 				E1B71A9720F89E1000C30A86 /* Sources */,
 				E1B71A9820F89E1000C30A86 /* Frameworks */,
@@ -212,6 +374,24 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		DB2675070B654D04C3F7874A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wxControlTweak-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E1B71A9620F89E1000C30A86 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -245,6 +425,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1B71ACB20F999E800C30A86 /* GACSocketModel.m in Sources */,
+				E1B71AC920F999E800C30A86 /* KNConstTool.m in Sources */,
+				E11149DA20FB2A4300A78825 /* KNconvertHexStrToString.m in Sources */,
+				E1B71AD120F999FF00C30A86 /* FLSocketManager.m in Sources */,
+				E1B71AE220F9A4B700C30A86 /* Const.m in Sources */,
+				E1B71ACA20F999E800C30A86 /* KNSocketRespondModel.m in Sources */,
+				E1B71AE120F9A4B700C30A86 /* HCPEnvrionmentalVariables.m in Sources */,
+				E1B71AEB20FB248700C30A86 /* KNNotificationTool.m in Sources */,
+				E1B71AE320F9A4B700C30A86 /* KNConst.m in Sources */,
+				E1B71ACC20F999E800C30A86 /* GACConnectConfig.m in Sources */,
+				E1B71AD320F999FF00C30A86 /* KNSocketManagerTool.m in Sources */,
 				E1B71AB320F89E1000C30A86 /* wxControlTweak.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,6 +505,7 @@
 		};
 		E1B71ABA20F89E1000C30A86 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8D3198B00E5415BF3ABDF73 /* Pods-wxControlTweak.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -329,7 +521,7 @@
 				MonkeyDevCopyOnBuild = NO;
 				MonkeyDevDeviceIP = "";
 				MonkeyDevDevicePassword = "";
-				MonkeyDevDevicePort = "";
+				MonkeyDevDevicePort = 2222;
 				MonkeyDevInstallOnAnyBuild = YES;
 				MonkeyDevInstallOnProfiling = YES;
 				MonkeyDevkillProcessOnInstall = SpringBoard;
@@ -340,6 +532,7 @@
 		};
 		E1B71ABB20F89E1000C30A86 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FE2F33A7294B9F3D37A47FC /* Pods-wxControlTweak.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -355,7 +548,7 @@
 				MonkeyDevCopyOnBuild = NO;
 				MonkeyDevDeviceIP = "";
 				MonkeyDevDevicePassword = "";
-				MonkeyDevDevicePort = "";
+				MonkeyDevDevicePort = 2222;
 				MonkeyDevInstallOnAnyBuild = YES;
 				MonkeyDevInstallOnProfiling = YES;
 				MonkeyDevkillProcessOnInstall = SpringBoard;
